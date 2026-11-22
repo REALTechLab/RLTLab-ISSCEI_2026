@@ -15,7 +15,7 @@ Repository này lưu trữ mã nguồn, tài liệu kỹ thuật và mô hình t
 ```text
 RLTLab-ISSCEI_2026/
 ├── documents/              # Tài liệu thuyết minh, poster, slide báo cáo ISSCEI 2026
-├── models/		# Mô hình drone x500
+├── models/				 # Mô hình drone x500
 ├── worlds/                 # Thế giới 3D
 ├── scripts/                # Các script hỗ trợ cài đặt
 ├── requirements.txt        # Danh sách thư viện Python phụ thuộc
