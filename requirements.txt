@@ -1,0 +1,30 @@
+# ==============================================================================
+# Core & Scientific Computing
+# ==============================================================================
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+
+# ==============================================================================
+# Computer Vision & Edge AI (Uncomment/adjust based on your hardware)
+# ==============================================================================
+opencv-python>=4.8.0
+ultralytics>=8.1.0          # YOLOv8/v11 for real-time object detection
+torch>=2.1.0                # PyTorch deep learning framework
+torchvision>=0.16.0
+onnxruntime>=1.16.0         # Optimized inference on edge devices
+
+# ==============================================================================
+# IoT, Telemetry & UAV / Hardware Communication
+# ==============================================================================
+paho-mqtt>=2.0.0            # MQTT client for IoT sensor & telemetry data
+pyserial>=3.5               # Serial communication (STM32, Arduino, LoRa)
+pymavlink>=2.4.40           # MAVLink protocol for UAV/Drone telemetry & control
+
+# ==============================================================================
+# Visualization & Logging
+# ==============================================================================
+matplotlib>=3.8.0
+loguru>=0.7.2               # Clean & structured logging
