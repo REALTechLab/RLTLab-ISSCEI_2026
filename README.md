@@ -14,13 +14,10 @@ Repository này lưu trữ mã nguồn, tài liệu kỹ thuật và mô hình t
 
 ```text
 RLTLab-ISSCEI_2026/
-├── docs/                   # Tài liệu thuyết minh, poster, slide báo cáo ISSCEI 2026
-├── hardware/               # Sơ đồ mạch, thiết kế 3D, thông số phần cứng (nếu có)
-├── src/                    # Mã nguồn chính của hệ thống
-│   ├── ai_models/          # Mô hình học sâu, xử lý ảnh & trọng số
-│   ├── control/            # Thuật toán điều khiển nhúng / ROS / Firmware
-│   └── dashboard/          # Giao diện giám sát Web/App
-├── scripts/                # Các script hỗ trợ cài đặt, chạy benchmark & test
+├── documents/              # Tài liệu thuyết minh, poster, slide báo cáo ISSCEI 2026
+├── 	models				# Mô hình drone x500
+├── worlds/                 # Thế giới 3D
+├── scripts/                # Các script hỗ trợ cài đặt
 ├── requirements.txt        # Danh sách thư viện Python phụ thuộc
 ├── LICENSE                 # Giấy phép mã nguồn mở
 └── README.md               # Tài liệu hướng dẫn tổng quan
@@ -33,7 +30,7 @@ RLTLab-ISSCEI_2026/
 ### 1. Phần cứng (Hardware)
 * **Thiết bị xử lý trung tâm / Biên:** `Mini PC Intel Core i7, 32GB Ram, 1TB SSD`
 * **Nền tảng di động / Cảm biến:** `Quadrotor X650`
-* **Trạm mặt đất (GCS):** Laptop/PC hỗ trợ Wi-Fi/Telemetry.
+* **Trạm mặt đất (GCS):** `Laptop/PC hỗ trợ Wi-Fi/Telemetry.`
 
 ### 2. Phần mềm (Software)
 * **Hệ điều hành:** Ubuntu 22.04 LTS / Windows 11
